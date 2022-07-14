@@ -3,8 +3,8 @@ import java.io.Serializable;
 
 public class Note implements Serializable {
 
-    private 	int id;
-    private 	String noteContent;
+    private int id;
+    private String noteContent;
 
     public Note( int id, String noteContent  ) {
         this.id = id;
